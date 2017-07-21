@@ -19,9 +19,9 @@ $('#page-loading-progress').progress({
 
 // GitHub
 function updateGitHub() {
-    $('#github-watch img').attr('src', 'https://img.shields.io/github/watchers/iROCKBUNNY/BYR-Navi.svg?style=social&label=Watch');
-    $('#github-star img').attr('src', 'https://img.shields.io/github/stars/iROCKBUNNY/BYR-Navi.svg?style=social&label=Star');
-    $('#github-fork img').attr('src', 'https://img.shields.io/github/forks/iROCKBUNNY/BYR-Navi.svg?style=social&label=Fork');
+    $('#github-watch img').attr('src', 'https://img.shields.io/github/watchers/' + repository + '.svg?style=social&label=Watch');
+    $('#github-star img').attr('src', 'https://img.shields.io/github/stars/' + repository + '.svg?style=social&label=Star');
+    $('#github-fork img').attr('src', 'https://img.shields.io/github/forks/' + repository + '.svg?style=social&label=Fork');
 };
 updateGitHub();
 setInterval(function () {
@@ -41,21 +41,19 @@ setInterval(function () {
 
 // visit
 function updateVisit(updateProgressBar) {
-    $.getJSON(urlPrefix + '/json/analytics.json', function (data) {
-        $.getJSON(data.api.url, {
-            'module': 'API',
-            'method': 'VisitsSummary.getUniqueVisitors',
-            'idSite': '1',
-            'period': 'day',
-            'date': 'today',
-            'format': 'JSON',
-            'token_auth': data.api.token
-        }, function (data) {
-            $('#visit img').attr('src', 'https://img.shields.io/badge/%E4%BB%8A%E6%97%A5%E8%AE%BF%E5%AE%A2-' + encodeURIComponent(data.value) + '-brightgreen.svg');
-            if (updateProgressBar) {
-                $('#page-loading-progress').progress('increment');
-            };
-        });
+    $.getJSON(analyticsAPI.url, {
+        'module': 'API',
+        'method': 'VisitsSummary.getUniqueVisitors',
+        'idSite': analyticsAPI.id,
+        'period': 'day',
+        'date': 'today',
+        'format': 'JSON',
+        'token_auth': analyticsAPI.token
+    }, function (data) {
+        $('#visit img').attr('src', 'https://img.shields.io/badge/%E4%BB%8A%E6%97%A5%E8%AE%BF%E5%AE%A2-' + encodeURIComponent(data.value) + '-brightgreen.svg');
+        if (updateProgressBar) {
+            $('#page-loading-progress').progress('increment');
+        };
     });
 };
 updateVisit(true);
@@ -65,7 +63,7 @@ setInterval(function () {
 
 // search
 $('#search-services').dropdown();
-if (Cookies.get('byr_navi_previous_search_service_option') == undefined || $('#' + Cookies.get('byr_navi_previous_search_service_option')).length === 0) {
+if (Cookies.get('byr_navi_previous_search_service_option') === undefined || Cookies.get('byr_navi_previous_search_service_option') === '' || $('#' + Cookies.get('byr_navi_previous_search_service_option')).length === 0) {
     Cookies.set('byr_navi_previous_search_service_option', $('#search-services').val(), { expires: 365 });
 } else {
     $('#search-services').dropdown('set selected', Cookies.get('byr_navi_previous_search_service_option'));
@@ -76,8 +74,8 @@ $('#search-button').click(function () {
     var query = $('#search-query').val();
     query = encodeURIComponent(query);
     if (query) {
-        Cookies.set('byr_navi_previous_search_service_option', $('#search-services').val(), { expires: 365 });
-        window.open(service.attr('data-url') + query + service.attr('data-suffix'), '_blank');
+        Cookies.set('byr_navi_previous_search_service_option', service.val(), { expires: 365 });
+        window.open('search/?service=' + encodeURIComponent(service.text()) + '&query=' + query + '&next=' + encodeURIComponent(service.attr('data-url') + query + service.attr('data-suffix')), '_blank');
     } else {
         $('#search-div').addClass('error');
         $('#search-query').attr('placeholder', '请输入搜索内容');
@@ -92,7 +90,7 @@ $(document).ready(function () {
     $('#search-query').focus();
 });
 
-$(window).keyup(function(event) {
+$(window).keyup(function (event) {
     var windowTop = $(window).scrollTop();
     var windowHeight = $(window).innerHeight();
     var windowBottom = windowTop + windowHeight;
@@ -105,8 +103,8 @@ $(window).keyup(function(event) {
         query = encodeURIComponent(query);
         if (query) {
             if ($('#search-query:focus').length > 0) {
-                Cookies.set('byr_navi_previous_search_service_option', $('#search-services').val(), { expires: 365 });
-                window.open(service.attr('data-url') + query + service.attr('data-suffix'), '_blank');
+                Cookies.set('byr_navi_previous_search_service_option', service.val(), { expires: 365 });
+                window.open('search/?service=' + encodeURIComponent(service.text()) + '&query=' + query + '&next=' + encodeURIComponent(service.attr('data-url') + query + service.attr('data-suffix')), '_blank');
             } else {
                 $('#search-query').focus().select();
             };
@@ -117,13 +115,29 @@ $(window).keyup(function(event) {
     };
 });
 
-$('#search-query').keyup(function(event) {
+$('#search-query').keyup(function (event) {
     if (event.key) {
         if ($('#search-query').val()) {
             $('#search-div').removeClass('error');
             $('#search-query').attr('placeholder', '立即搜索');
         };
     };
+});
+
+$('.shortcuts .ui.label').each(function () {
+    $(this).click(function () {
+        var service = $('#' + $(this).attr('data-search-service-id'));
+        var query = $('#search-query').val();
+        query = encodeURIComponent(query);
+        if (query) {
+            Cookies.set('byr_navi_previous_search_service_option', service.val(), { expires: 365 });
+            $('#search-services').dropdown('set selected', service.val());
+            window.open('search/?service=' + encodeURIComponent(service.text()) + '&query=' + query + '&next=' + encodeURIComponent(service.attr('data-url') + query + service.attr('data-suffix')), '_blank');
+        } else {
+            $('#search-div').addClass('error');
+            $('#search-query').attr('placeholder', '请输入搜索内容');
+        };
+    });
 });
 
 // query suggestions

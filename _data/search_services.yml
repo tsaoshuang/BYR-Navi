@@ -73,20 +73,6 @@
   url: http://www.panc.cc/s/
   suffix: "/td_0"
 
-- id: byr
-  name: 北邮人论坛
-  url: http://search.icybee.cn/bbs/?key=
-  suffix: ''
-
-- id: byrauthor
-  name: 北邮人论坛用户
-  url: http://search.lovezxp.com/?type=author&text=
-  suffix: ''
-
-- id: byrarticle
-  name: 北邮人论坛文章
-  url: http://search.lovezxp.com/?type=article&text=
-  suffix: ''
 
 - id: github
   name: GitHub

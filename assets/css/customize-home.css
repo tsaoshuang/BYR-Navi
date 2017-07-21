@@ -37,7 +37,7 @@
     transform-style: preserve-3d;
 }
 
-.masthead .badges {
+.masthead .shortcuts {
     margin-top: 0.5rem;
 }
 
@@ -80,9 +80,8 @@
     padding-bottom: 5em;
 }
 
-.ui.stackable.celled.grid .row .column {
-    padding-top: 2em;
-    padding-bottom: 2em;
+.ui.stackable.celled.grid .row .links.column .ui.top.attached.label {
+    border-radius: 0;
 }
 
 .footer.segment {
@@ -95,10 +94,6 @@
 
 #logo {
     font-size: 1.5em;
-}
-
-#contacts-dimmer div.item {
-    font-size: 2em;
 }
 
 @media only screen and (max-width: 767px) {
@@ -122,8 +117,5 @@
     .masthead h2 {
         margin-top: 0.5em;
         font-size: 1.5em;
-    }
-    #contacts-dimmer div.item {
-        font-size: 1em;
     }
 }

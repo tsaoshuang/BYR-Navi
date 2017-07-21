@@ -5,15 +5,15 @@ repository: https://github.com/iROCKBUNNY/BYR-Navi
 
 timezone: Asia/Shanghai
 
-name: 北邮人导航 · BYR-Navi
-author: iROCKBUNNY
-author_url: http://irockbunny.com
+name: 奇货导航 · QIHUO-Navi
+author: 奇货队长
+author_url: http://qihuo.me
 organization: TEELAB
 organization_url: http://teelab.net
-description: A Navigation Website for BYR
-keywords: 北邮人导航, BYR-Navi, BYR, BUPT, Navi, Navigation
-url: http://byr123.irockbunny.com
-contact: contact[at]irockbunny[dot]com
+description: A Navigation Website for QIHUO
+keywords: 奇货导航, QIHUO-Navi, QIHUO, Navi, Navigation
+url: http://fav.qihuo.me
+contact: dongxibitan[at]gmail[dot]com
 
 logo: /images/logo.png
 logo_dark: /images/logo-dark.png

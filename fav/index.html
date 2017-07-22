@@ -4,7 +4,7 @@ fav: true
 ---
 {% for section in site.data.zy_links %}
     <div class="ui vertical stripe links segment">
-        {% if forloop.first %}{% include page_loading_progress_bar.html %}{% endif %}
+        {% include page_loading_progress_bar.html %}
         <div class="ui equal width stackable internally celled grid">
             <div class="center aligned row">
                 {% for item in section.categories %}

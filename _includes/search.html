@@ -12,11 +12,7 @@
     <div class="ui labels shortcuts">
         {% for item in site.data.search_services %}{% if item.shortcut %}<a class="ui {{ item.style }} label" data-search-service-id="{{ item.id }}">{% if item.icon %}<i class="{{ item.icon }} icon"></i>{% endif %}{{ item.shortcut }}</a>{% endif %}{% endfor %}
     </div>
-    <div class="badges">
-       
-        
-        
-    </div>
+    
     <div class="ui inverted link list">
         <a class="item loading-trigger" href="{{ '/donate/' | relative_url }}">请为辛苦滴开发者众筹一杯咖啡</a>
     </div>

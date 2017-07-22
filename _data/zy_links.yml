@@ -1,0 +1,805 @@
+ section: public
+  categories:
+  - category: 关注
+    links:
+    - name: Google Play
+      icon: google red
+      style: basic
+      url:  https://play.google.com/store
+
+    - name: Google developers
+      icon: android red
+      style: basic
+      url: https://developers.google.com/
+
+    - name: Android
+      icon: android red
+      style: basic
+      url: https://developer.android.com/index.html
+
+    - name:  Googleblog
+      style: basic
+      url:  https://android-developers.googleblog.com/
+
+    - name:  nodejs
+      style: basic
+      url:  https://nodejs.org/en/
+
+    - name:  Chrome V8
+      icon: chrome blue
+      style: basic
+      url:  https://developers.google.com/v8/
+
+
+    - name:  清博
+      style: basic
+      url:   http://www.gsdata.cn/
+
+    - name:  新榜
+      style: basic
+      url:   http://www.newrank.cn/
+
+    - name:  google trends
+      icon: google blue
+      style: basic
+      url:   https://trends.google.com/trends/
+
+    - name:  google Analytics
+      icon: google blue
+      style: basic
+      url:   http://www.google.cn/intl/zh-CN_ALL/analytics/index.html
+
+    - name:  OS China
+      style: basic
+      url:   https://www.oschina.net/
+
+
+  - category: 工具
+    links:
+    - name: Stack overflow
+      icon: stack overflow red
+      style: basic
+      url:  http://stackoverflow.com/
+
+    - name: 百度指数
+      style: basic
+      url:  https://index.baidu.com/
+
+    - name: Github
+      icon: gitbub red
+      style: basic
+      url:  https://github.com/
+
+    - name: 百度搜索风云
+      style: basic
+      url:  http://top.baidu.com/
+
+    - name: similar web
+      style: basic
+      url:  https://www.similarweb.com/
+
+    - name:  appannie
+      style: basic
+      url:  https://www.appannie.com/dashboard/home/
+
+    - name:  站长工具
+      style: basic
+      url:   http://tool.chinaz.com/
+
+    - name:  西部
+      style: basic
+      url:   http://www.west.cn/
+
+    - name:  阿里云
+      style: basic
+      url:   https://www.aliyun.com/
+
+    - name:  极客导航
+      style: basic
+      url:   http://123.w3cschool.cn/
+
+
+
+  - category: Android
+    links:
+    - name: Google developers
+      icon: android red
+      style: basic
+      url: https://developers.google.com/
+
+    - name: Android
+      icon: android red
+      style: basic
+      url: https://developer.android.com/index.html
+
+    - name:  Google Play
+      icon: android red
+      style: basic
+      url:  https://play.google.com/store
+
+    - name:  Android studio
+      style: basic
+      url:   http://www.android-studio.org/
+
+    - name:  Segmentfault android
+      style: basic
+      url:   https://segmentfault.com/t/android
+
+    - name:  xda
+      style: basic
+      url:   https://www.xda-developers.com/
+
+    - name:  开源中国android
+      style: basic
+      url:   https://www.oschina.net/android
+
+  - category: 社交
+    links:
+    - name: 微博
+      icon: weibo red
+      style: basic
+      url: http://weibo.com/
+
+    - name: 微信网页版
+      icon: wechat green
+      style: basic
+      url: http://wx.qq.com/
+
+    - name: 百度贴吧
+      icon: paw blue
+      style: basic
+      url: http://tieba.baidu.com/
+
+    - name: 知乎
+      style: basic
+      url: http://www.zhihu.com/
+
+    - name: Quora
+      icon: quora red
+      style: basic
+      url: http://www.quora.com
+
+    - name: Facebook
+      icon: facebook blue
+      style: basic
+      url: http://www.facebook.com/
+
+    - name: Google+
+      icon: google plus red
+      style: basic
+      url: https://plus.google.com/
+
+    - name: Tumblr
+      icon: tumblr blue
+      style: basic
+      url: http://www.tumblr.com/
+
+    - name: Instagram
+      icon: instagram pink
+      style: basic
+      url: http://www.instagram.com
+
+    - name: Twitter
+      icon: twitter blue
+      style: basic
+      url: https://twitter.com/
+
+    - name: VK
+      icon: vk blue
+      style: basic
+      url: https://vk.com
+
+    - name: Youtube
+      icon: youtube red
+      style: basic
+      url: https://www.youtube.com/
+
+    - name: Pinterest
+      icon: pinterest red
+      style: basic
+      url: https://www.pinterest.com/
+
+  - category: Cocos2d
+    links:
+    - name:  cocos
+      icon: cocos red
+      style: basic
+      url:   http://www.cocos.com/category/blog
+
+    - name:  cocos论坛
+      style: basic
+      url:   http://forum.cocos.com/
+
+    - name:  weibo
+      style: basic
+      url:   http://weibo.com/cocos2dx?is_hot=1&noscale_head=1#_0
+
+    - name:  友盟
+      style: basic
+      url:   https://i.umeng.com/?
+
+    - name:  mofang
+      style: basic
+      url:   http://v.mofang.com/
+
+
+  - category: Unity
+    links:
+    - name: unity3d learn
+      style: basic
+      url: https://unity3d.com/cn/learn
+
+    - name: Documentation
+      style: basic
+      url: https://docs.unity3d.com/2017.1/Documentation/Manual/
+
+    - name: Script API
+      style: basic
+      url: https://docs.unity3d.com/2017.1/Documentation/ScriptReference/index.html
+
+    - name: 蛮牛
+      style: basic
+      url: http://edu.manew.com/course/explore?fliter%5Btype%5D=all&fliter%5Bprice%5D=free&fliter%5BcurrentLevelId%5D=all&orderBy=studentNum%E2%80%9D
+
+  - category: 论坛
+    links:
+    - name:  GAD
+      style: basic
+      url:   http://gad.qq.com/
+
+    - name: 看雪学院
+      style: basic
+      url: http://www.pediy.com/
+
+    - name: 看雪论坛
+      style: basic
+      url: http://bbs.pediy.com/
+
+    - name: blackhatworld
+      style: basic
+      url: https://www.blackhatworld.com/forums/
+
+    - name: 阿里云栖
+      style: basic
+      url: https://yq.aliyun.com/
+
+    - name: bugly
+      style: basic
+      url: http://bugly.qq.com/bbs/forum.php
+
+    - name: jfinal
+      style: basic
+      url: http://www.jfinal.com/
+
+    - name: hacpai
+      style: basic
+      url: https://hacpai.com/
+
+
+
+
+- section: 技术学习
+  categories:
+  - category: 导购
+    links:
+    - name: 一淘
+      style: basic
+      url: https://www.etao.com/
+
+    - name: 惠惠网
+      style: basic
+      url: http://www.huihui.cn/
+
+    - name: 什么值得买
+      style: basic
+      url: http://www.smzdm.com
+
+    - name: 买个便宜货
+      style: basic
+      url: http://www.mgpyh.com/
+
+    - name: 一分网
+      style: basic
+      url: http://www.yifen.com/
+
+    - name: pconline聚超值
+      style: basic
+      url: http://best.pconline.com.cn/
+
+
+
+    - name: 小红书
+      style: basic
+      url: http://www.xiaohongshu.com/
+
+    - name: 蘑菇街
+      style: basic
+      url: http://www.mogujie.com
+
+    - name: 美丽说
+      style: basic
+      url: http://www.meilishuo.com/
+
+    - name: 小红书
+      style: basic
+      url: http://cn.dealmoon.com/
+
+    - name: 慢慢买
+      style: basic
+      url: http://manmanbuy.com/
+
+    - name: 逛丢
+      style: basic
+      url: http://guangdiu.com/
+
+    - name: 逛丢
+      style: basic
+      url: http://www.baicaio.com/
+
+    - name: 礼物说
+      style: basic
+      url: http://www.liwushuo.com/
+
+    - name: knewone
+      style: basic
+      url: https://knewone.com/
+
+    - name: 豆瓣东西
+      style: basic
+      url: https://dongxi.douban.com/
+
+    - name: 知乎
+      style: basic
+      url: https://www.zhihu.com/question/20371413
+
+
+  - category: 海外导购
+    links:
+    - name: dealnews
+      style: basic
+      url: http://dealnews.com/
+
+    - name: 省钱快报--华人
+      style: basic
+      url: http://cn.dealmoon.com/
+
+    - name: 好康--华人
+      style: basic
+      url: http://www.hoconinfo.com/
+
+    - name: 找丢网--华人
+      style: basic
+      url: http://cn.dealam.com/
+
+    - name: slick deals
+      style: basic
+      url: https://slickdeals.net/
+
+    - name: 器物与我
+      style: basic
+      url: http://qwme.org/archives/1681
+
+    - name: fat wallet
+      style: basic
+      url: https://www.fatwallet.com/
+
+    - name: deals plus
+      style: basic
+      url: http://www.dealsplus.com/
+
+    - name: dealsea
+      style: basic
+      url: http://dealsea.com/
+
+    - name: dealigg
+      style: basic
+      url: http://www.dealigg.com/
+
+    - name: retailmenot
+      style: basic
+      url: https://www.retailmenot.com/
+
+    - name: retrevo
+      style: basic
+      url: http://shop.retrevo.com/m/dailydeal/index/partners
+
+    - name: cnet
+      style: basic
+      url: https://www.cnet.com/deals/
+
+    - name: reddit  deals
+      style: basic
+      url: https://www.reddit.com/r/deals/
+
+    - name: reddit  coupons
+      style: basic
+      url: https://www.reddit.com/r/coupons/
+
+    - name: 省钱一族--华人
+      style: basic
+      url: http://www.mitbbs.com/bbsdoc/PennySaver.html
+
+
+
+  - category: 电商
+    links:
+    - name: TVBoX
+      style: basic
+      url: https://www.tvbox.shop
+
+    - name: Wish
+      style: basic
+      url: https://www.wish.com
+
+    - name: Wish后台
+      style: basic
+      url: https://china-merchant.wish.com
+
+    - name: 1688.com
+      style: basic
+      url: https://www.1688.com/
+
+    - name: amazon
+      style: basic
+      url: https://www.amazon.com/
+
+    - name: 店小秘
+      style: basic
+      url: http://www.dianxiaomi.com/home.htm
+
+    - name: 导航
+      style: basic
+      url: http://dig.tools/kj
+
+    - name: 京东
+      style: basic
+      url: http://jd.com
+
+    - name: 天猫
+      style: basic
+      url: http://tmall.com
+
+    - name: 淘宝
+      style: basic
+      url: http://taobao.com
+
+    - name: 米库电商网址
+      style: basic
+      url: http://hao.malllib.com/
+
+  - category: 广告
+    links:
+    - name: 淘宝联盟
+      style: basic
+      url: http://pub.alimama.com/
+
+    - name: 亿起发
+      style: basic
+      url: http://www.yiqifa.com/
+
+    - name: 多麦
+      style: basic
+      url: http://www.duomai.com/
+
+    - name: 领克特
+      style: basic
+      url: http://www.linktech.cn/
+
+    - name: 唯一
+      style: basic
+      url: http://www.weiyi.com/
+
+    - name: 成果
+      style: basic
+      url: https://www.chanet.com.cn/
+
+    - name: Amazon
+      style: basic
+      url: https://associates.amazon.com/
+
+    - name: 中亚
+      style: basic
+      url: https://associates.amazon.cn/
+
+    - name: 京东
+      style: basic
+      url: http://media.jd.com/
+
+    - name: Amazon
+      style: basic
+      url: http://www.linkedin.com/
+
+  - category: 前端
+    links:
+    - name: JavaScript极客
+      style: basic
+      url: http://wiki.jikexueyuan.com/list/javascript/
+
+    - name: JS python廖雪峰
+      style: basic
+      url: http://www.liaoxuefeng.com/
+
+    - name: W3C
+      style: basic
+      url: http://www.w3cschool.cn/
+
+    - name: W3C 菜鸟
+      style: basic
+      url: http://www.runoob.com/
+
+    - name: W3C在线
+      style: basic
+      url: http://www.w3school.com.cn/
+
+    - name: 在线工具
+      style: basic
+      url: http://tool.lu/
+
+    - name: jquery
+      style: basic
+      url: http://jquery.com/
+
+
+
+  - category: 后端
+    links:
+    - name: Java极客
+      style: basic
+      url: http://wiki.jikexueyuan.com/list/java/
+
+    - name: 小程序
+      style: basic
+      url: https://mp.weixin.qq.com/debug/wxadoc/dev/api/
+
+    - name: Developer  windows
+      style: basic
+      url: https://developer.microsoft.com/zh-cn/windows/desktop
+
+
+
+  - category: 学习
+    links:
+    - name: CSDN
+      style: basic
+      url: http://www.csdn.net/
+
+    - name: W3School
+      style: basic
+      url: http://www.w3school.com.cn/
+
+    - name: Stack Overflow
+      icon: stack overflow orange
+      style: basic
+      url: http://stackoverflow.com/
+
+    - name: GitHub
+      icon: github black
+      style: basic
+      url: http://github.com/
+
+    - name: V2EX
+      style: basic
+      url: http://www.v2ex.com/
+
+    - name: SegmentFault
+      style: basic
+      url: http://segmentfault.com/
+
+    - name: 掘金
+      style: basic
+      url: http://gold.xitu.io/
+
+    - name: 网易公开课
+      style: basic
+      url: http://open.163.com/
+
+    - name: 慕课网(IMOOC)
+      style: basic
+      url:   http://www.imooc.com/
+
+    - name: 极客学院IT在线教育平台
+      style: basic
+      url:   http://www.jikexueyuan.com/
+
+    - name: 实验楼
+      style: basic
+      url:  https://www.shiyanlou.com/
+
+    - name: 牛客网
+      style: basic
+      url:  https://www.nowcoder.com/
+
+    - name: 网易云课堂
+      style: basic
+      url:  http://study.163.com/
+
+    - name: 51CTO学院
+      style: basic
+      url:  http://edu.51cto.com/
+
+  - category: 知乎
+    links:
+    - name: 道(吴翰清)
+      style: basic
+      url: https://www.zhihu.com/people/aullik5/answers
+
+    - name: 道(吴翰清)
+      style: basic
+      url: http://www1.taosay.net/
+
+    - name: 余峰
+      style: basic
+      url: https://www.zhihu.com/people/baryeah/answers
+
+    - name: Feng
+      style: basic
+      url: https://www.zhihu.com/people/fenng/answers
+
+    - name: 许朝军
+      style: basic
+      url: https://www.zhihu.com/people/xu-zhao-jun/answers
+
+    - name: 汪华
+      style: basic
+      url: https://www.zhihu.com/people/wang-hua/answers
+
+    - name: 在线工具
+      style: basic
+      url: http://tool.lu/
+
+    - name: 在线工具
+      style: basic
+      url: http://tool.lu/
+
+    - name: 在线工具
+      style: basic
+      url: http://tool.lu/
+
+    - name: 在线工具
+      style: basic
+      url: http://tool.lu/
+
+    - name: 在线工具
+      style: basic
+      url: http://tool.lu/
+
+
+
+- section: 学习相关
+  categories:
+  - category: 价格查询
+    links:
+    - name: keepa
+      style: basic
+      url: https://keepa.com/
+
+    - name: camelcamelcamel
+      style: basic
+      url: http://camelcamelcamel.com/
+
+    - name: google shopping
+      style: basic
+      url: http://www.google.com/shopping
+
+    - name: shopping
+      style: basic
+      url: http://www.shopping.com/
+
+    - name: priceblink
+      style: basic
+      url: http://www.priceblink.com/webcpns/browser-add-on/
+
+    - name: yahoo shopping
+      style: basic
+      url: https://shopping.yahoo.com/
+
+    - name: zoolert
+      style: basic
+      url: https://www.zoolert.com/index.php
+
+    - name: pricejot
+      style: basic
+      url: http://www.pricejot.com/
+
+    - name: 盒子比价网
+      style: basic
+      url: http://www.boxz.com/
+
+    - name: 惠惠
+      style: basic
+      url: http://www.huihui.cn/
+
+    - name: 一淘
+      style: basic
+      url: http://www.etao.com/
+
+    - name: 琅琅比价
+      style: basic
+      url: http://www.langlang.cc/
+
+    - name: 购物党
+      style: basic
+      url: http://www.gwdang.com/
+
+    - name: 西贴
+      style: basic
+      url: http://www.xitie.com/
+
+    - name: kakaku日本
+      style: basic
+      url: http://kakaku.com/
+
+    - name: 香港格价网
+      style: basic
+      url: http://www.price.com.hk/
+
+  - category: 博客
+    links:
+    - name: 小密圈
+      style: basic
+      url: https://wx.xiaomiquan.com/dweb/
+
+    - name: 知乎
+      style: basic
+      url: https://www.zhihu.com/
+
+    - name: 简书
+      style: basic
+      url: http://www.jianshu.com/subscriptions#/timeline
+
+    - name: 卢松松
+      style: basic
+      url: http://lusongsong.com/
+
+    - name: 顾小北
+      style: basic
+      url: http://www.guxiaobei.com/
+
+    - name: caoz
+      style: basic
+      url: https://seofangfa.com/caoz/
+
+    - name: 方法
+      style: basic
+      url: https://seofangfa.com/
+
+    - name: 阮一峰
+      style: basic
+      url: http://www.ruanyifeng.com/blog/archives.html
+
+    - name: 设计导航
+      style: basic
+      url: http://idesign.qq.com/#!index/feed
+
+    - name: 36KR
+      style: basic
+      url: http://36kr.com/
+
+    - name: 博客大全
+      style: basic
+      url: http://daohang.lusongsong.com/
+
+    - name: 云风
+      style: basic
+      url: http://blog.codingnow.com/
+
+    - name: 傅盛
+      style: basic
+      url: http://fusheng.baijia.baidu.com/
+
+    - name: T型学院
+      style: basic
+      url: https://aissues.com/
+
+  - category: 博客
+    links:
+    - name: 小密圈
+      style: basic
+      url: https://wx.xiaomiquan.com/dweb/
+
+
+  - category: 美术
+    links:
+    - name: 小密圈
+      style: basic
+      url: https://wx.xiaomiquan.com/dweb/

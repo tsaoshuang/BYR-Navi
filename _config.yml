@@ -8,8 +8,8 @@ timezone: Asia/Shanghai
 name: 奇货导航 · QIHUO-Navi
 author: 奇货队长
 author_url: http://qidui.me
-organization: TEELAB
-organization_url: http://teelab.net
+organization: 
+organization_url: 
 description: A Navigation Website for QIHUO
 keywords: 奇货导航, QIHUO-Navi, QIHUO, Navi, Navigation
 url: http://fav.qihuo.me

@@ -87,7 +87,7 @@
       url: http://tieba.baidu.com/
 
     - name: 知乎
-      style: basic
+      style: blue
       url: http://www.zhihu.com/
 
     - name: Quora

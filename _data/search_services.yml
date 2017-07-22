@@ -25,9 +25,6 @@
   icon: map green
   style: basic
 
-- id: ieeexplore
-  name: IEEE Xplore
-  url: http://ieeexplore.ieee.org/search/searchresult.jsp?queryText=
 
 - id: baiduxueshu
   name: 百度学术
@@ -105,15 +102,3 @@
   suffix: "/td_0"
   shortcut: 胖次
   style: basic
-
-- id: byr
-  name: 北邮人论坛
-  url: http://search.icybee.cn/bbs/?key=
-
-- id: byrauthor
-  name: 北邮人论坛用户
-  url: http://search.lovezxp.com/?type=author&text=
-
-- id: byrarticle
-  name: 北邮人论坛文章
-  url: http://search.lovezxp.com/?type=article&text=
